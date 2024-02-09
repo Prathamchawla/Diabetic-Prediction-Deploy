@@ -1,26 +1,11 @@
-#!/usr/bin/env python
-# coding: utf-8
 
-# In[1]:
 
 
 from flask import Flask, render_template, request, jsonify
 import pickle
-import numpy as np
-from scipy.stats import zscore
-import pandas as pd
-from sklearn.feature_extraction.text import TfidfVectorizer
-from sklearn.metrics.pairwise import linear_kernel
-import re
-import nltk
-nltk.download('stopwords')
-nltk.download('punkt')
-from nltk.corpus import stopwords
-from nltk.tokenize import word_tokenize
-from nltk.stem import PorterStemmer
 
 
-# In[2]:
+
 
 
 app = Flask(__name__)
